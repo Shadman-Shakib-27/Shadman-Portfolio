@@ -50,3 +50,36 @@ p {
   background-repeat: no-repeat;
   background-position: right;
 }
+.experience-area {
+  display: flex;
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  margin-bottom: 150px;
+}
+#Hone {
+  padding-left: 5.2%;
+}
+.Htwo {
+  color: orange;
+}
+.experience-item {
+  box-shadow: 10px 10px 40px gray;
+  width: 45%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 10px;
+  padding: 10px 35px;
+}
+#BabyHero {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+#FullStack {
+  border-left: 7px solid;
+  border-image: linear-gradient(salmon, orange);
+  border-image-slice: 1;
+}
+#Pid {
+  text-align: center;
+}
